@@ -1,0 +1,171 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMZ9bjLEH4cDQSxu4Dw058e",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/RANANIRMAL/21-2python/blob/main/ch2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "KDB3i7R99JQF"
+      },
+      "source": [
+        ""
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "IC5C3ul39ILd"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "sFnjpbWF9UyF"
+      },
+      "source": [
+        "#### **학습목표**\n",
+        "\n",
+        "1. 문자열(str) 타입 이해하기"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ZkPMIN8u92DV"
+      },
+      "source": [
+        "###**문자열(str)**\n",
+        "- 여러 개의 문자를 순서대로 나알한 것\n",
+        "- 문자열은 '(적은따음표)'혹은 (쿤따옴표) 사이에 문자를 넣어서 생선\n",
+        "- '''. \"\"\" (여러번 씅경우)\n",
+        "여러 줄에 걸쳐 문자열이 표현 가능\n",
+        "- 뮨저욜 저체에 .'\"았울 경우애서눈 그 반대의 기호를 생선"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mYOpQa-Y9yHt",
+        "outputId": "d39d4aa3-efc2-4cca-b41a-9431ac0f29bf"
+      },
+      "source": [
+        "a = \"Hello World!!\"\n",
+        "b = 'Hello World!'\n",
+        "     \n",
+        "c = '''Hello World\n",
+        "\n",
+        "it is nirmal'''\n",
+        "\n",
+        "d = \"\"\"Hello World\n",
+        "it is nirmal \"\"\"\n",
+        "\n",
+        "print(a)\n",
+        "print(b)\n",
+        "print(c)\n",
+        "print(d)"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Hello World!!\n",
+            "Hello World!\n",
+            "Hello World\n",
+            "\n",
+            "it is nirmal\n",
+            "Hello World\n",
+            "it is nirmal \n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "TCe3jmMHA9Cm"
+      },
+      "source": [
+        "**이스케이프(escape) 문자**\\\n",
+        "\n",
+        "* 탈줄 효과'를 주기 위해 문자열 내부에 넣는다\n",
+        "* 'Wn': 엔터(다음줄)\n",
+        "* 'Wt': tab"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eiWpeHAp_etc",
+        "outputId": "74ee4d87-7bb1-4b31-f191-091a227c19e3"
+      },
+      "source": [
+        "print('hellowWnWnworld')\n",
+        "print('이렇게 엔터를Wn치면 됩니다')\n",
+        "print('2학기 회장:Wt 오상록')\n",
+        "print('1학기 회장:Wt 전지설')"
+      ],
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "hellowWnWnworld\n",
+            "이렇게 엔터를Wn치면 됩니다\n",
+            "2학기 회장:Wt 오상록\n",
+            "1학기 회장:Wt 전지설\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "UFMP5gdSCL6Q"
+      },
+      "source": [
+        "\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
